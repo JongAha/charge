@@ -25,7 +25,7 @@ body {
 }
 
 .right-section {
-    width: 66.67%;
+    width: 60%;
     height: 100vh;
     overflow: hidden;
 }
@@ -87,16 +87,35 @@ button {
     padding: 1rem;
 }
 
+.transaction-header {
+    opacity: 0;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.transaction-header,
 .transaction-item {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+}
+
+.transaction-header span,
+.transaction-item span {
+    flex: 1;
+    text-align: center;
+}
+
+.transaction-item {
     margin-bottom: 0.5rem;
-    color: #000;
+    padding: 0.5rem 0;
+    /* border-bottom: 1px solid #f0f0f0; */
 }
 
 .coin-icon {
-    margin-left: 0.5rem;
     color: #ffd700;
+    margin-left: 0.25rem;
 }
 
 .random-image {
