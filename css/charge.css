@@ -113,6 +113,12 @@ button {
     /* border-bottom: 1px solid #f0f0f0; */
 }
 
+.centerEle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .coin-icon {
     color: #ffd700;
     margin-left: 0.25rem;
